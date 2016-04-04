@@ -1,2 +1,4 @@
---[[Main page for app content]]--
+local widget = require( "widget" )
+local composer = require( "composer" )
 
+composer.gotoScene("mainPage")
